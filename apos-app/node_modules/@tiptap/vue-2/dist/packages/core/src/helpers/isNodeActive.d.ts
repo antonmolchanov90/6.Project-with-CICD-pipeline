@@ -1,3 +1,0 @@
-import { EditorState } from 'prosemirror-state';
-import { NodeType } from 'prosemirror-model';
-export default function isNodeActive(state: EditorState, typeOrName: NodeType | string | null, attributes?: Record<string, any>): boolean;

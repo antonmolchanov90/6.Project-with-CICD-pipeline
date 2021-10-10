@@ -1,1 +1,0 @@
-export default function createStyleTag(style: string): HTMLStyleElement;

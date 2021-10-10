@@ -1,2 +1,0 @@
-import { Transaction } from 'prosemirror-state';
-export default function selectionToInsertionEnd(tr: Transaction, startLen: number, bias: number): void;

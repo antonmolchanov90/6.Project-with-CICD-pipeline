@@ -1,1 +1,0 @@
-export default function isClass(item: any): boolean;

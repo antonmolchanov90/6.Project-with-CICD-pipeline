@@ -1,3 +1,0 @@
-import { Node, Mark } from 'prosemirror-model';
-import { ExtensionAttribute } from '../types';
-export default function getRenderedAttributes(nodeOrMark: Node | Mark, extensionAttributes: ExtensionAttribute[]): Record<string, any>;

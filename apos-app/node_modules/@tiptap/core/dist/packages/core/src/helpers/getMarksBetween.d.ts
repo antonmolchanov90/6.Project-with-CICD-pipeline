@@ -1,3 +1,0 @@
-import { EditorState } from 'prosemirror-state';
-import { MarkRange } from '../types';
-export default function getMarksBetween(from: number, to: number, state: EditorState): MarkRange[];

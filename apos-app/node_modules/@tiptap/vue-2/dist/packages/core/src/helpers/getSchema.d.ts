@@ -1,3 +1,0 @@
-import { Schema } from 'prosemirror-model';
-import { Extensions } from '../types';
-export default function getSchema(extensions: Extensions): Schema;

@@ -1,2 +1,0 @@
-import { EditorView } from 'prosemirror-view';
-export default function posToDOMRect(view: EditorView, from: number, to: number): DOMRect;

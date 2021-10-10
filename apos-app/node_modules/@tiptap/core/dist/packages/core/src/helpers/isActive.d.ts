@@ -1,2 +1,0 @@
-import { EditorState } from 'prosemirror-state';
-export default function isActive(state: EditorState, name: string | null, attributes?: Record<string, any>): boolean;

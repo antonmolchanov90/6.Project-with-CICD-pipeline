@@ -1,3 +1,0 @@
-import { InputRule } from 'prosemirror-inputrules';
-import { MarkType } from 'prosemirror-model';
-export default function (regexp: RegExp, markType: MarkType, getAttributes?: Function): InputRule;

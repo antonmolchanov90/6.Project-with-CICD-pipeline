@@ -1,2 +1,0 @@
-import { Node, Schema } from 'prosemirror-model';
-export default function getHTMLFromFragment(doc: Node, schema: Schema): string;

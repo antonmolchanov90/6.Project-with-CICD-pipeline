@@ -1,2 +1,0 @@
-import { ExtensionAttribute } from '../types';
-export default function getSplittedAttributes(extensionAttributes: ExtensionAttribute[], typeName: string, attributes: Record<string, any>): Record<string, any>;

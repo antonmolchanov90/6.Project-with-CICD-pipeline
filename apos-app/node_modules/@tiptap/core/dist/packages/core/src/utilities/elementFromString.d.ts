@@ -1,0 +1,1 @@
+export default function elementFromString(value: string): HTMLElement;

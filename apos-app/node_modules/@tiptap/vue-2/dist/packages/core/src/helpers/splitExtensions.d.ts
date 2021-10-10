@@ -1,0 +1,9 @@
+import { Extensions } from '../types';
+import { Extension } from '../Extension';
+import { Node } from '../Node';
+import { Mark } from '../Mark';
+export default function splitExtensions(extensions: Extensions): {
+    baseExtensions: Extension<any>[];
+    nodeExtensions: Node<any>[];
+    markExtensions: Mark<any>[];
+};

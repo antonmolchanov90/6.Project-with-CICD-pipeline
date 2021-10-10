@@ -1,0 +1,2 @@
+import { Node as ProseMirrorNode } from 'prosemirror-model';
+export default function isNodeEmpty(node: ProseMirrorNode): boolean;

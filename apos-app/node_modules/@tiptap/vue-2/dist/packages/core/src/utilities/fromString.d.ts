@@ -1,0 +1,1 @@
+export default function fromString(value: any): any;

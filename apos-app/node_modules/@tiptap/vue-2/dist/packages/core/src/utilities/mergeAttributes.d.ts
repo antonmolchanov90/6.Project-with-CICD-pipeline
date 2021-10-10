@@ -1,0 +1,1 @@
+export default function mergeAttributes(...objects: Record<string, any>[]): Record<string, any>;

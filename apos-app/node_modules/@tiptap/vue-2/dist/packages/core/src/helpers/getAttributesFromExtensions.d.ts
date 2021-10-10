@@ -1,0 +1,6 @@
+import { Extensions, ExtensionAttribute } from '../types';
+/**
+ * Get a list of all extension attributes defined in `addAttribute` and `addGlobalAttribute`.
+ * @param extensions List of extensions
+ */
+export default function getAttributesFromExtensions(extensions: Extensions): ExtensionAttribute[];

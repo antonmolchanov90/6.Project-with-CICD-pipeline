@@ -1,0 +1,2 @@
+import { AnyExtension, RemoveThis } from '../types';
+export default function getExtensionField<T = any>(extension: AnyExtension, field: string, context?: Record<string, any>): RemoveThis<T>;

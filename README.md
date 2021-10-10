@@ -1,1 +1,1 @@
-Repo for SDLC test project.
+For full SDLC project.

@@ -1,0 +1,1 @@
+export default function isPlainObject(payload: any): payload is Record<string, any>;

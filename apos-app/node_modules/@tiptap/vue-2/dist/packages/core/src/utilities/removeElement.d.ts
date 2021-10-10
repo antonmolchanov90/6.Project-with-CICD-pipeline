@@ -1,0 +1,1 @@
+export default function removeElement(element: HTMLElement): void;

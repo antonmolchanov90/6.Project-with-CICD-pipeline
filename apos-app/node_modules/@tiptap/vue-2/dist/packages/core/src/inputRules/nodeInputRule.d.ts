@@ -1,0 +1,3 @@
+import { InputRule } from 'prosemirror-inputrules';
+import { NodeType } from 'prosemirror-model';
+export default function (regexp: RegExp, type: NodeType, getAttributes?: (match: any) => any): InputRule;

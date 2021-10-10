@@ -1,0 +1,2 @@
+import { Extensions } from '../types';
+export default function isList(name: string, extensions: Extensions): boolean;

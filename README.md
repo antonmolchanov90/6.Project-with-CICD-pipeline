@@ -1,1 +1,1 @@
-For full SDLC project.
+Project with CICD pipeline - Jenkins.

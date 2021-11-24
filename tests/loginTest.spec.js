@@ -18,10 +18,10 @@ let page
 
 describe ('Test for project login', () => {
 
-    it('Open local project and login', async () => {
-      const newLogin = new login(page)
-      await newLogin.loginUser(page)
-      const expectTitle = await page.title()
-      expect(expectTitle).toBe('Home')
-   }, 300000)
+  it('Open local project and login', async () => {
+    const newLogin = new login(page)
+    await newLogin.loginUser(page)
+    const expectTitle = await page.title()
+    expect(expectTitle).toBe('Home')
+  }, 300000)
 })

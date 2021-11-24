@@ -12,16 +12,16 @@
         }
       }
     }
-})();import index_0App from "/home/user/1.ANTON/Documents/1Work/1.QA/6.Full-SDLC/apos-app/node_modules/apostrophe/modules/@apostrophecms/util/ui/src/index.js";
+})();import index_0App from "/home/user/1.ANTON/Documents/1Work/1.QA/6.Project with CICD pipeline/apos-app/node_modules/apostrophe/modules/@apostrophecms/util/ui/src/index.js";
 
 
-import index_1App from "/home/user/1.ANTON/Documents/1Work/1.QA/6.Full-SDLC/apos-app/node_modules/apostrophe/modules/@apostrophecms/video-widget/ui/src/index.js";
+import index_1App from "/home/user/1.ANTON/Documents/1Work/1.QA/6.Project with CICD pipeline/apos-app/node_modules/apostrophe/modules/@apostrophecms/video-widget/ui/src/index.js";
 
 
-import index_2App from "/home/user/1.ANTON/Documents/1Work/1.QA/6.Full-SDLC/apos-app/modules/asset/ui/src/index.js";
+import index_2App from "/home/user/1.ANTON/Documents/1Work/1.QA/6.Project with CICD pipeline/apos-app/modules/asset/ui/src/index.js";
 
 
   
-import index_0Stylesheet from "/home/user/1.ANTON/Documents/1Work/1.QA/6.Full-SDLC/apos-app/modules/asset/ui/src/index.scss";index_0App();
+import index_0Stylesheet from "/home/user/1.ANTON/Documents/1Work/1.QA/6.Project with CICD pipeline/apos-app/modules/asset/ui/src/index.scss";index_0App();
 index_1App();
 index_2App();

@@ -1,6 +1,7 @@
 pipeline {
     agent any
     stages {
+        delete()
         stage('Build') {
             steps {
               dir('./apos-app') {

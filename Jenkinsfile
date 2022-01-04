@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
               cleanWs()  
-              dir('./apos-app') {
+              dir('/var/lib/jenkins/workspace/TestAnton/apos-app') {
               sh 'npm install'    
               sh 'npm run dev'
               }
@@ -12,7 +12,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                dir('./tests') {
+                dir('/var/lib/jenkins/workspace/TestAnton/tests') {
                 sh 'jest'
             }
           }

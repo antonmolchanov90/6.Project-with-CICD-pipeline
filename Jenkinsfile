@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 dir('/var/lib/jenkins/workspace/TestAnton@script/4.tests') {
-                sh 'npm install
+                sh 'npm install'
                 sh 'jest'
             }
           }

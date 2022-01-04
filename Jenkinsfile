@@ -6,8 +6,9 @@ pipeline {
                 dir('/var/lib/jenkins/workspace/TestAnton/3.apos-app') {
                 sh 'npm install'    
                 sh 'npm run dev'
-                if (!continueBuild) {
-                   currentBuild.result = 'ABORTED'  
+                if (Listening at http://localhost:3000) {
+                   autoCancelled = true
+                   return  
               }
             }
         }

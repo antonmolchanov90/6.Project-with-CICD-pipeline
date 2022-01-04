@@ -6,7 +6,7 @@ pipeline {
                 dir('/var/lib/jenkins/workspace/TestAnton/3.apos-app') {
                 sh 'npm install'    
                 sh 'npm run dev'
-                sh 'exit'  
+                sh 'exit 0'  
               }
             }
         }

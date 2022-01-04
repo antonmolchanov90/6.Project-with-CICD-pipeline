@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        delete()
         stage('Build') {
             steps {
+              cleanWs()  
               dir('./apos-app') {
               sh 'npm install'    
               sh 'npm run dev'

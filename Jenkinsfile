@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-              dir('./3.apos-app') {
+              dir('./apos-app') {
               sh 'npm install'    
               sh 'npm run dev'
               }
@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                dir('./4.tests') {
+                dir('./tests') {
                 sh 'jest'
             }
           }

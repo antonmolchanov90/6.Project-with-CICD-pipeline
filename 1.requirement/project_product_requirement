@@ -9,7 +9,7 @@ Simple wireframe should be implemented to determine the design of the web site.
 The web site should contain several pages with simple content - text, picture, video, etc. It should consist of 3 pages: with text, with photo, with video.
 There should be admin access to moderate content and layout for one single user. Also, there should be options to have edit mode for admin and published mode for simple users - visitors.
 The web site's source code should be hosted in github repository.
-The whole project should be hosted on free hosting.
+The whole project should be hosted on free hosting - this has been cancelled.
 CI/CD system (Jenkins) should be used for continuous integration/deployment.
 
 Time frame for project fulfillment: October-January 2021/2022.

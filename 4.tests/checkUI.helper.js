@@ -7,6 +7,7 @@ class justCheckUI extends core {
     async justCheckClick() {
       await this.page.waitForSelector('body > div > div > header > a')
       await this.page.click('body > div > div > header > a')
+      await this.page.waitForSelector('#apos-admin-bar')
     }
 }
 

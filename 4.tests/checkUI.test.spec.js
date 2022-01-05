@@ -21,7 +21,6 @@ describe ('Just test for CI', () => {
   it('Open local project and check UI', async () => {
     const newUITest = new justCheckUI(page)
     await newUITest.justCheckClick(page)
-    await page.waitFor(1000)
     const expectTitle = await page.title()
     expect(expectTitle).toBe('Login')
   }, 300000)

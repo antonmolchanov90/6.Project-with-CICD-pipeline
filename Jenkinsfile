@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps { 
                 dir('/var/lib/jenkins/workspace/TestAnton/3.apos-app') {
-                sh 'npm install && npm run dev'
+                sh 'npm install && npm run dev &'
                 }     
             }
         }
